@@ -1,6 +1,6 @@
 // print in python
 
 
-export function print(){
-    return console.log
+export function print(thing: any): any{
+    return console.log(thing)
 }
