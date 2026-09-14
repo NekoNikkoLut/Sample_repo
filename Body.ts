@@ -21,8 +21,14 @@ print(sumOfEvenNumberList);
 const sumOfOddNumberList = oddNumberList.reduce((sum, number) => sum + number, 0);
 print(sumOfOddNumberList);
 
-const sumOfAllNumberList = numberList.reduce((sum, number) => sum + number, 0);
-print(sumOfAllNumberList);
+const averageOfEvenNumberList = sumOfEvenNumberList / evenNumberList.length;
+print(averageOfEvenNumberList);
 
-const averageOfAllNumberList = sumOfAllNumberList / numberList.length;
+const averageOfOddNumberList = sumOfOddNumberList / oddNumberList.length;
+print(averageOfOddNumberList);
+
+const averageOfAllNumberList = (sumOfEvenNumberList + sumOfOddNumberList) / (evenNumberList.length + oddNumberList.length);
 print(averageOfAllNumberList);
+
+const maxOfEvenNumberList = evenNumberList.reduce((max, number) => Math.max(max, number), 0);
+print(maxOfEvenNumberList);
