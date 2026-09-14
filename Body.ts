@@ -32,3 +32,15 @@ print(averageOfAllNumberList);
 
 const maxOfEvenNumberList = evenNumberList.reduce((max, number) => Math.max(max, number), 0);
 print(maxOfEvenNumberList);
+
+//He
+const minOfOddNumberList = oddNumberList.reduce((min, number) => Math.min(min, number), 0);
+print(minOfOddNumberList);
+
+// max of all number list
+const maxOfAllNumberList = numberList.reduce((max, number) => Math.max(max, number), 0);
+print(maxOfAllNumberList);
+
+// min of all number list
+const minOfAllNumberList = numberList.reduce((min, number) => Math.min(min, number), 0);
+print(minOfAllNumberList);
