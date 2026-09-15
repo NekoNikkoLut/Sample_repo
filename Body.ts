@@ -44,3 +44,5 @@ print(maxOfAllNumberList);
 // min of all number list
 const minOfAllNumberList = numberList.reduce((min, number) => Math.min(min, number), 0);
 print(minOfAllNumberList);
+
+//My name is neil nikko Lut
