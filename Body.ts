@@ -48,7 +48,8 @@ print(minOfAllNumberList);
 //My name is neil nikko Lut
 //my name is neil nikko Lut
 
-"print 500 randome names"
+"print 500 randome names and store in a list"
 
 const randomNames = Array.from({length: 500}, () => Math.random().toString(36).substring(2, 15));
-print(randomNames);
+const randomNamesList = randomNames.map((name) => name.charAt(0).toUpperCase() + name.slice(1));
+print(randomNamesList);
