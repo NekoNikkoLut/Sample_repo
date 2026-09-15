@@ -46,3 +46,4 @@ const minOfAllNumberList = numberList.reduce((min, number) => Math.min(min, numb
 print(minOfAllNumberList);
 
 //My name is neil nikko Lut
+//my name is neil nikko Lut
