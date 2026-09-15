@@ -47,3 +47,8 @@ print(minOfAllNumberList);
 
 //My name is neil nikko Lut
 //my name is neil nikko Lut
+
+"print 500 randome names"
+
+const randomNames = Array.from({length: 500}, () => Math.random().toString(36).substring(2, 15));
+print(randomNames);
