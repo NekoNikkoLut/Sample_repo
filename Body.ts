@@ -53,3 +53,6 @@ print(minOfAllNumberList);
 const randomNames = Array.from({length: 500}, () => Math.random().toString(36).substring(2, 15));
 const randomNamesList = randomNames.map((name) => name.charAt(0).toUpperCase() + name.slice(1));
 print(randomNamesList);
+
+//my name is neil nikko lut fro stat pad
+
